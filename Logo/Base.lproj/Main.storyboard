@@ -28,6 +28,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hung Nguyen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xD1-e5-zNF">
+                                <frame key="frameInset" minX="88" minY="11" width="198" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -37,6 +44,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="lbl_name" destination="xD1-e5-zNF" id="h18-0v-3Sq"/>
                         <outlet property="lbl_text" destination="t4k-L1-N1o" id="KUk-HV-iVW"/>
                         <outlet property="logo_img" destination="ilL-Eg-xU4" id="Q93-cJ-ke6"/>
                     </connections>
